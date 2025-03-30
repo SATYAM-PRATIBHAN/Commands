@@ -19,14 +19,22 @@ git branch -m oldname newname
 git push origin -u newname
 git push origin --delete oldname
 
-# CLoning a git Repository
+# Pull latest changes from remote repository
+git pull origin main
+
+# Pull latest changes from all remote branches
+git pull --all
+
+# Clone a git repository
 git clone https://github.com/your-username/repo.git
 
-# Updating git repository
+# Update git repository
 git add .
-git commit -m "message"
-git push origin main
+git commit -m "New Message"
+git push origin branch
 
+# Add a remote origin
+git remote add origin https://github.com/your-username/repo.git
 ```
 
 ## Docker Commands
