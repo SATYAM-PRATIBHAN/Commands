@@ -1,4 +1,4 @@
-# Web Developer Cheat Sheet
+# CLI Command Cheat Sheet
 
 ## Git Commands
 ```sh
