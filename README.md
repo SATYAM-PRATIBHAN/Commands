@@ -113,15 +113,5 @@ psql -U username -d database_name
 \dt
 ```
 
-## General Bash Tricks
-```sh
-# Find and kill a process by port
-lsof -i :3000  # Find the process using port 3000
-kill -9 <PID>
-
-# Open a random port in VS Code
-code $(mktemp -d)
-```
-
 ---
 This cheat sheet covers some of the most useful but often forgotten commands for web development. Happy coding! 🚀
