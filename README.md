@@ -131,4 +131,4 @@ psql -U username -d database_name
 ```
 
 ---
-This cheat sheet covers some of the most useful but often forgotten commands for web development. Happy coding! 🚀
+This cheat sheet covers most of the commands I use in my daily life(Yeah I can't remember them all), maybe it can also helo you.
