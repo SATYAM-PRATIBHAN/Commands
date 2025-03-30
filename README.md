@@ -18,6 +18,15 @@ git commit --amend -m "New message"
 git branch -m oldname newname
 git push origin -u newname
 git push origin --delete oldname
+
+# CLoning a git Repository
+git clone https://github.com/your-username/repo.git
+
+# Updating git repository
+git add .
+git commit -m "message"
+git push origin main
+
 ```
 
 ## Docker Commands
